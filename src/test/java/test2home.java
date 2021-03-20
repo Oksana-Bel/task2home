@@ -18,10 +18,10 @@ public class test2home {
         Configuration.startMaximized = true;
     }
 
-    @AfterAll
+    /*@AfterAll
     static void notclosebrowser() {
         Configuration.holdBrowserOpen = true;
-    }
+    }*/
 
     @Test
     void successfulFillTest() {
