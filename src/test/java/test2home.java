@@ -37,7 +37,6 @@ public class test2home {
         $(".react-datepicker__month-select").selectOptionByValue("6");
         $(".react-datepicker__year-select").selectOption("1991");
         $(".react-datepicker__day--013").click();
-        //  $(".subjects-auto-complete__control").click();
         $("#subjectsContainer").click();
         $("#subjectsInput").setValue("Physics").pressEnter();
         $(byText("Sports")).click();
